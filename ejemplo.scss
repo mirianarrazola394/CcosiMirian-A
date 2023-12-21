@@ -3,22 +3,22 @@ header, footer {
   position: fixed;
   padding: 20px 0;
   box-sizing: border-box;
-  color: #c3c1c1;
+  color: #c1c3c2;
   width: 100%;
 }
 
 @mixin backgroundred {
-  background-color: red;
-  border: 1px solid blue;
+  background-color: rgb(72, 0, 255);
+  border: 1px solid rgb(0, 255, 242);
   font-size: 20px;
 }
 
 
 .layout_a {
-  color: #c3c1c1;
+  color: #c1c3c1;
   &:hover {
     text-decoration: underline;
-    color: #FFF;
+    color: #ffffff;
     @include backgroundred
   }
 }
