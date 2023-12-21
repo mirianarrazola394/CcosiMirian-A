@@ -11,8 +11,8 @@ header, footer {
   .layout_a:hover {
     text-decoration: underline;
     color: #FFF;
-    background-color: red;
-    border: 1px solid blue;
+    background-color: rgb(255, 208, 0);
+    border: 1px solid rgb(255, 0, 60);
     font-size: 20px; }
 
 header {
